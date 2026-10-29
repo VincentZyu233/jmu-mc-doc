@@ -41,3 +41,7 @@ npm run docs:build
 - `JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack`
 
 发布前需确认 MRPack 不含本机 Java 路径和 Xaero 多人缓存。
+
+## HMCL 安装方案
+
+实测 HMCL 也支持直接将整合包文件（.mrpack，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案适用于使用 Linux 和 macOS 游玩 Minecraft 的玩家。
