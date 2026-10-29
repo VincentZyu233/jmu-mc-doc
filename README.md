@@ -1,4 +1,8 @@
-﻿# JMU 高校复原工程文档
+<p align="center">
+  <img src="./docs/public/branding/jmu-grass-block-512.png" alt="JMU 高校复原工程草方块校徽 Logo" width="180">
+</p>
+
+# JMU 高校复原工程文档
 
 集美大学 JMU 高校复原工程 Minecraft 服务器的公开文档站点，基于 VitePress 构建并部署到 GitHub Pages。
 
