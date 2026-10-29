@@ -9,9 +9,9 @@ export default defineConfig({
   description: '集美大学 JMU 高校复原工程 Minecraft 服务器的公开玩法、客户端安装与建筑指南',
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}branding/favicon-32.png` }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `${base}apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}branding/jmu-favicon-v1.svg?v=20261029` }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}branding/jmu-favicon-32-v1.png?v=20261029` }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `${base}branding/apple-touch-icon-v1.png?v=20261029` }],
     ['meta', { name: 'theme-color', content: '#3c8527' }],
     ['meta', { property: 'og:image', content: 'https://vincentzyu233.github.io/jmu-mc-doc/branding/jmu-grass-block-512.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
