@@ -10,13 +10,16 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}branding/favicon-32.png` }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `${base}apple-touch-icon.png` }],
     ['meta', { name: 'theme-color', content: '#3c8527' }],
+    ['meta', { property: 'og:image', content: 'https://vincentzyu233.github.io/jmu-mc-doc/branding/jmu-grass-block-512.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'JMU 高校复原工程' }],
     ['meta', { property: 'og:description', content: '在 Minecraft 中复原集美大学校园，记录建筑、像素画与共同创作。' }]
   ],
   themeConfig: {
-    logo: `${base}creeper-grass-block.svg`,
+    logo: '/branding/jmu-grass-block.svg',
     siteTitle: 'JMU 高校复原工程',
     nav: [
       { text: '首页', link: '/' },
