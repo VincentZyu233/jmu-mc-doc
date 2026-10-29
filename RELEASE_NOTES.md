@@ -4,7 +4,7 @@ Minecraft **26.3** · Fabric Loader **0.20.1** · Java **25**
 
 ## 下载内容
 
-- `PCL2_CE_Release_x64.exe`：Windows x64 PCL CE 启动器
+- `PCL2_CE_Release_x64.exe`：Windows x64 PCL CE 启动器（[PCL CE GitHub](https://github.com/PCL-Community/PCL-CE)）
 - `JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack`：完整 JMU 客户端整合包
 
 ## 安装
@@ -35,4 +35,4 @@ Minecraft **26.3** · Fabric Loader **0.20.1** · Java **25**
 
 ## HMCL 安装方案
 
-实测 HMCL 也支持直接将整合包文件（`.mrpack`，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案适用于使用 Linux 和 macOS 游玩 Minecraft 的玩家。
+实测 [HMCL](https://github.com/HMCL-dev/HMCL) 也支持直接将整合包文件（`.mrpack`，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案适用于使用 Linux 和 macOS 游玩 Minecraft 的玩家。

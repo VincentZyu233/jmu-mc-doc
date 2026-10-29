@@ -37,11 +37,11 @@ npm run docs:build
 
 客户端 Release 包含两个资产：
 
-- `PCL2_CE_Release_x64.exe`
+- `PCL2_CE_Release_x64.exe`：[PCL CE GitHub](https://github.com/PCL-Community/PCL-CE)
 - `JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack`
 
 发布前需确认 MRPack 不含本机 Java 路径和 Xaero 多人缓存。
 
 ## HMCL 安装方案
 
-实测 HMCL 也支持直接将整合包文件（.mrpack，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案适用于使用 Linux 和 macOS 游玩 Minecraft 的玩家。
+实测 [HMCL](https://github.com/HMCL-dev/HMCL) 也支持直接将整合包文件（`.mrpack`，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案适用于使用 Linux 和 macOS 游玩 Minecraft 的玩家。

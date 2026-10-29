@@ -5,13 +5,15 @@
 前往 [JMU 最新 Release](https://github.com/VincentZyu233/jmu-mc-doc/releases/latest) 下载以下两个资产：
 
 <div class="download-box">
-  <strong>PCL2_CE_Release_x64.exe</strong>
+  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/PCL2_CE_Release_x64.exe">PCL2_CE_Release_x64.exe</a></strong>
   <p>Windows x64 启动器。已有 PCL CE 或其他支持 MRPack 的启动器时可跳过。</p>
-  <strong>JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack</strong>
+  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack">JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack</a></strong>
   <p>包含 Minecraft 26.3、Fabric 0.20.1 和全部客户端模组配置。</p>
 </div>
 
 MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。Release 说明中会同时提供两个文件的 SHA-256，可用于校验下载完整性。
+
+启动器项目：[PCL CE GitHub](https://github.com/PCL-Community/PCL-CE) · [HMCL GitHub](https://github.com/HMCL-dev/HMCL)
 
 ## 🔹 PCL CE 安装流程
 
@@ -36,6 +38,10 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 - 游戏内存：建议至少 `4 GB`
 
 如果启动器要求重新下载模组，可直接使用 MRPack 的 `overrides/mods` 内容，不需要手动补装。
+
+## 🔹 HMCL 安装流程
+
+实测 [HMCL](https://github.com/HMCL-dev/HMCL) 也支持直接将整合包文件（`.mrpack`，本质为 ZIP）拖入启动器窗口，随后按提示下载并安装客户端。该方案尤其适合使用 Linux 和 macOS 游玩 Minecraft 的玩家。
 
 ## 🔹 整合包内容
 
