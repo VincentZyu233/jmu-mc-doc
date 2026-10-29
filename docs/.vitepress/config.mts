@@ -1,4 +1,4 @@
-﻿import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 const base = process.env.VITEPRESS_BASE || '/jmu-mc-doc/'
 
@@ -10,13 +10,13 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
-    ['meta', { name: 'theme-color', content: '#1e6aa8' }],
+    ['meta', { name: 'theme-color', content: '#3c8527' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'JMU 高校复原工程' }],
     ['meta', { property: 'og:description', content: '在 Minecraft 中复原集美大学校园，记录建筑、像素画与共同创作。' }]
   ],
   themeConfig: {
-    logo: `${base}favicon.svg`,
+    logo: `${base}creeper-grass-block.svg`,
     siteTitle: 'JMU 高校复原工程',
     nav: [
       { text: '首页', link: '/' },

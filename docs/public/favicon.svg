@@ -1,11 +1,24 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
   <defs>
-    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1e6aa8"/>
-      <stop offset="1" stop-color="#20a39e"/>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#77c850"/>
+      <stop offset="1" stop-color="#3d8f2d"/>
+    </linearGradient>
+    <linearGradient id="dirt" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#8a5a35"/>
+      <stop offset="1" stop-color="#4b2f1f"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <path d="M14 46V18h8l10 15 10-15h8v28h-8V31L32 45 22 31v15z" fill="#fff"/>
-  <path d="M44 11h8v8h-8z" fill="#b9f4e8"/>
+  <path d="M6 4h52v14H6z" fill="url(#grass)"/>
+  <path d="M6 18h52v42H6z" fill="url(#dirt)"/>
+  <path d="M6 18h52v5H6z" fill="#2f7425"/>
+  <g fill="#111" opacity=".92">
+    <path d="M17 24h12v8H17zM35 24h12v8H35z"/>
+    <path d="M27 34h10v14H27z"/>
+    <path d="M22 43h5v5h-5zM37 43h5v5h-5z"/>
+  </g>
+  <g fill="#fff" opacity=".15">
+    <path d="M10 8h8v4h-8zM30 10h6v3h-6zM47 6h6v5h-6zM12 25h5v5h-5zM48 31h5v8h-5zM14 48h6v5h-6z"/>
+  </g>
+  <path d="M6 4h52v56H6z" fill="none" stroke="#1f4d1a" stroke-width="3"/>
 </svg>

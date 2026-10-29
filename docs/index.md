@@ -1,4 +1,4 @@
-﻿---
+---
 layout: home
 
 hero:
@@ -6,7 +6,7 @@ hero:
   text: 把集美大学校园建进 Minecraft
   tagline: 基于 Minecraft 26.3 与 Fabric 的高校复原计划。记录建筑、铺设卫星像素地图，并邀请可靠的建筑师共同完善校园。
   image:
-    src: /favicon.svg
+    src: /creeper-grass-block.svg
     alt: JMU 高校复原工程
   actions:
     - theme: brand

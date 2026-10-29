@@ -1,24 +1,24 @@
-﻿:root {
+:root {
   --vp-font-family-base: 'LXGW WenKai', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
   --vp-font-family-mono: 'Cascadia Code Variable', 'Cascadia Code', ui-monospace, monospace;
-  --vp-c-brand-1: #176d9d;
-  --vp-c-brand-2: #238ba2;
-  --vp-c-brand-3: #2a9d8f;
-  --vp-c-brand-soft: rgba(35, 139, 162, 0.14);
-  --vp-button-brand-bg: #176d9d;
-  --vp-button-brand-hover-bg: #238ba2;
-  --vp-button-brand-active-bg: #125a82;
+  --vp-c-brand-1: #3c8527;
+  --vp-c-brand-2: #55a437;
+  --vp-c-brand-3: #74c94d;
+  --vp-c-brand-soft: rgba(84, 164, 55, 0.16);
+  --vp-button-brand-bg: #3c8527;
+  --vp-button-brand-hover-bg: #4f9d35;
+  --vp-button-brand-active-bg: #2f6b20;
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #176d9d 10%, #2a9d8f 90%);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(23, 109, 157, 0.28), rgba(42, 157, 143, 0.2));
+  --vp-home-hero-name-background: linear-gradient(120deg, #3c8527 10%, #8bd34d 90%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(60, 133, 39, 0.28), rgba(139, 211, 77, 0.2));
   --vp-home-hero-image-filter: blur(64px);
 }
 
 .dark {
-  --vp-c-brand-1: #64c7d7;
-  --vp-c-brand-2: #48b4c7;
-  --vp-c-brand-3: #63d8c2;
-  --vp-c-brand-soft: rgba(100, 199, 215, 0.14);
+  --vp-c-brand-1: #95df62;
+  --vp-c-brand-2: #7ccf4b;
+  --vp-c-brand-3: #b0ed79;
+  --vp-c-brand-soft: rgba(149, 223, 98, 0.14);
 }
 
 body,
@@ -74,7 +74,7 @@ samp,
 .VPFeature:hover {
   transform: translateY(-3px);
   border-color: var(--vp-c-brand-2);
-  box-shadow: 0 12px 34px rgba(23, 109, 157, 0.12);
+  box-shadow: 0 12px 34px rgba(60, 133, 39, 0.14);
 }
 
 .server-address {
@@ -87,7 +87,7 @@ samp,
   border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 35%, var(--vp-c-divider));
   border-radius: 14px;
   background:
-    radial-gradient(circle at 100% 0%, rgba(42, 157, 143, 0.17), transparent 48%),
+    radial-gradient(circle at 100% 0%, rgba(139, 211, 77, 0.18), transparent 48%),
     var(--vp-c-bg-soft);
 }
 
@@ -128,7 +128,7 @@ samp,
   border-radius: 14px;
   border: 1px solid var(--vp-c-divider);
   background:
-    linear-gradient(130deg, rgba(23, 109, 157, 0.08), rgba(42, 157, 143, 0.08)),
+    linear-gradient(130deg, rgba(60, 133, 39, 0.10), rgba(139, 211, 77, 0.10)),
     var(--vp-c-bg-soft);
 }
 
