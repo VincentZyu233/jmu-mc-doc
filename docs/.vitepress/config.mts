@@ -41,7 +41,8 @@ export default defineConfig({
         text: '校园共创',
         collapsed: false,
         items: [
-          { text: '建筑权限与协作规范', link: '/guide/builder' }
+          { text: '建筑权限与协作规范', link: '/guide/builder' },
+          { text: '投影预览与 WorldEdit 放置', link: '/guide/schematic-workflow' }
         ]
       },
       {

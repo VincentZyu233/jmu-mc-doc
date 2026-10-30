@@ -56,7 +56,7 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 | Xaero Minimap | 小地图 |
 | Xaero World Map | 世界地图 |
 
-服务端提供 WorldEdit，客户端通过聊天栏使用其命令。整合包现已内置 WorldEditCUI，使用木斧创建选区时会显示可视化线框。
+服务端提供 WorldEdit，客户端通过聊天栏使用其命令。整合包现已内置 WorldEditCUI，使用木斧创建选区时会显示可视化线框。需要导入或放置 `.schem` 投影时，请阅读[投影预览与 WorldEdit 放置](/guide/schematic-workflow)。
 
 ### 性能优化
 
