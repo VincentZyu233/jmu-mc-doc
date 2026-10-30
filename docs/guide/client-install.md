@@ -7,8 +7,8 @@
 <div class="download-box">
   <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/PCL2_CE_Release_x64.exe">PCL2_CE_Release_x64.exe</a></strong>
   <p>Windows x64 启动器。已有 PCL CE 或其他支持 MRPack 的启动器时可跳过。</p>
-  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack">JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack</a></strong>
-  <p>包含 Minecraft 26.3、Fabric 0.20.1 和全部客户端模组配置。</p>
+  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack">JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack</a></strong>
+  <p>包含 Minecraft 26.3、Fabric 0.20.1、29 个客户端模组及全部预设配置。</p>
 </div>
 
 MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。Release 说明中会同时提供两个文件的 SHA-256，可用于校验下载完整性。
@@ -50,12 +50,13 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 | 模组 | 用途 |
 | --- | --- |
 | Axiom | 可视化建筑编辑、选区、绘制、复制粘贴 |
+| WorldEditCUI | 在客户端显示 WorldEdit 选区线框 |
 | Sodium | 渲染优化 |
 | Iris | 光影加载 |
 | Xaero Minimap | 小地图 |
 | Xaero World Map | 世界地图 |
 
-服务端提供 WorldEdit，客户端通过聊天栏使用其命令；整合包不额外安装 WorldEditCUI，因此木斧选区不会在客户端显示线框，但命令和粘贴仍由服务端执行。
+服务端提供 WorldEdit，客户端通过聊天栏使用其命令。整合包现已内置 WorldEditCUI，使用木斧创建选区时会显示可视化线框。
 
 ### 性能优化
 
@@ -65,6 +66,11 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 - ImmediatelyFast
 - EntityCulling
 - Dynamic FPS
+- BadOptimizations
+- Bobby
+- Cull Leaves
+- ModernFix
+- Sodium Extra
 - Sodium
 - Fabric API
 - Fabric Language Kotlin
@@ -77,6 +83,7 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 - Gamma Utils
 - Better Ping Display
 - Chat Patches
+- Reese's Sodium Options
 - Mod Menu
 - Yet Another Config Lib
 - Cloth Config
@@ -114,7 +121,7 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 ## 🔹 首次启动检查
 
 - 启动器日志中没有 Java 版本错误；
-- Mod Menu 中能看到 Axiom、Sodium、Iris 和 Xaero；
+- Mod Menu 中能看到 Axiom、WorldEditCUI、Sodium、Iris 和 Xaero；
 - 语言为简体中文；
 - 多人游戏列表中已预置 JMU 服务器，或手动添加 `laoke.vincentzyu233.cn:61027`。
 

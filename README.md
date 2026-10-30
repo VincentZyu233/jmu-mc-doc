@@ -38,7 +38,7 @@ npm run docs:build
 客户端 Release 包含两个资产：
 
 - `PCL2_CE_Release_x64.exe`：[PCL CE GitHub](https://github.com/PCL-Community/PCL-CE)
-- `JMU-Minecraft-26.3-Fabric-v1.0.0.mrpack`
+- `JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack`
 
 发布前需确认 MRPack 不含本机 Java 路径和 Xaero 多人缓存。
 
