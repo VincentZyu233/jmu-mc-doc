@@ -35,7 +35,7 @@ features:
     link: /guide/client-install
   - icon: 🗺️
     title: 卫星像素画与地图
-    details: 服务器已写入 4096 × 4332 的校园卫星像素地图，搭配 Xaero 小地图和世界地图便于定位与规划。
+    details: 服务器已写入 10240 × 10830 的校园卫星像素地图，搭配 Xaero 小地图和世界地图便于定位与规划。
     link: /guide/quick-start
   - icon: 🔐
     title: 离线登录保护
