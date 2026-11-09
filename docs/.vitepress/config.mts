@@ -43,7 +43,8 @@ export default defineConfig({
         items: [
           { text: '建筑权限与协作规范', link: '/guide/builder' },
           { text: '投影预览与 WorldEdit 放置', link: '/guide/schematic-workflow' },
-          { text: '曲线道路放样 (CurveBuilding)', link: '/guide/curvebuilding' }
+          { text: '曲线道路放样 (CurveBuilding)', link: '/guide/curvebuilding' },
+          { text: '体素画圆指南 (徒手/WE/Axiom)', link: '/guide/circle-guide' }
         ]
       },
       {
