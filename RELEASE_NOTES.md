@@ -1,11 +1,11 @@
-# JMU 高校复原工程客户端 v1.1.0
+# JMU 高校复原工程客户端 v1.1.1
 
 Minecraft **26.3** · Fabric Loader **0.20.1** · Java **25**
 
 ## 下载内容
 
 - `PCL2_CE_Release_x64.exe`：Windows x64 PCL CE 启动器（[PCL CE GitHub](https://github.com/PCL-Community/PCL-CE)）
-- `JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack`：完整 JMU 客户端整合包
+- `JMU-Minecraft-26-3-Fabric-v1-1-1.mrpack`：包含 ViaFabricPlus 的 JMU 客户端整合包
 
 ## 安装
 
@@ -18,26 +18,27 @@ Minecraft **26.3** · Fabric Loader **0.20.1** · Java **25**
 
 详细教程：[https://vincentzyu233.github.io/jmu-mc-doc/](https://vincentzyu233.github.io/jmu-mc-doc/)
 
-## v1.1.0 更新内容
+## v1.1.1 更新内容
 
-- 客户端模组由 22 个增加到 29 个，旧模组无删除或替换。
-- 新增 7 个模组：
-  - **BadOptimizations**：补充客户端性能优化。
-  - **WorldEditCUI**：在客户端显示 WorldEdit 选区线框。
-  - **Bobby**：缓存已加载区块，减少重复等待。
-  - **Cull Leaves**：优化树叶渲染。
-  - **ModernFix**：改善启动、加载与运行性能。
-  - **Reese's Sodium Options**：改进 Sodium 视频设置界面。
-  - **Sodium Extra**：提供更多渲染与性能选项。
-- 整合包实例标识改为纯英文、无空格的 `JMU-Minecraft-26-3-Fabric`。
-- 继续预置 5 个资源包和 2 个光影包。
-- 已移除本机 Java 路径、作者存档、日志和 Xaero 多人地图缓存。
+- 客户端模组由 29 个增加到 30 个。
+- 新增 **ViaFabricPlus 5.1.3**，允许 Minecraft 26.3 客户端连接旧版本服务器。
+- ViaFabricPlus 是纯客户端模组，服务器不需要安装。
+- 本次更新不会让旧版本客户端连接当前 26.3 服务器。
+- 保留现有资源包、光影包、建筑工具、小地图与服务器预设。
+- 整合包中不包含本机 Java 路径、个人存档、日志或多人地图缓存。
 
 ## SHA-256
 
 ```text
 39E0F0613902241D448F901D4BE9BF2DA2F366ED2A5E0A6518A413DE4BFBE992  PCL2_CE_Release_x64.exe
-41B7AF22DD093146AEDACB636F9A11F91A07BFC39000599A62C3B0D412037559  JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack
+68AECB74649AD57306B06BFCA3F3E38608EFABCE9DEC1BAEF82014B7A7FEC3DC  JMU-Minecraft-26-3-Fabric-v1-1-1.mrpack
+```
+
+## ViaFabricPlus 文件校验
+
+```text
+SHA-512:
+91E60DB5183948F88A0CACB65A7492D8DD0C7AFC78EB0225F55C0EFEB0A5275AC54091863D67F9F8600655B1E47DE377F0ED32DA93E61D862128C6D4C75743A0
 ```
 
 ## HMCL 安装方案

@@ -7,8 +7,8 @@
 <div class="download-box">
   <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/PCL2_CE_Release_x64.exe">PCL2_CE_Release_x64.exe</a></strong>
   <p>Windows x64 启动器。已有 PCL CE 或其他支持 MRPack 的启动器时可跳过。</p>
-  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack">JMU-Minecraft-26-3-Fabric-v1-1-0.mrpack</a></strong>
-  <p>包含 Minecraft 26.3、Fabric 0.20.1、29 个客户端模组及全部预设配置。</p>
+  <strong><a href="https://github.com/VincentZyu233/jmu-mc-doc/releases/latest/download/JMU-Minecraft-26-3-Fabric-v1-1-1.mrpack">JMU-Minecraft-26-3-Fabric-v1-1-1.mrpack</a></strong>
+  <p>包含 Minecraft 26.3、Fabric 0.20.1、30 个客户端模组及全部预设配置。</p>
 </div>
 
 MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。Release 说明中会同时提供两个文件的 SHA-256，可用于校验下载完整性。
@@ -57,6 +57,14 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 | Xaero World Map | 世界地图 |
 
 服务端提供 WorldEdit，客户端通过聊天栏使用其命令。整合包现已内置 WorldEditCUI，使用木斧创建选区时会显示可视化线框。需要导入或放置 `.schem` 投影时，请阅读[投影预览与 WorldEdit 放置](/guide/schematic-workflow)。
+
+### 跨版本服务器兼容
+
+整合包内置 **ViaFabricPlus 5.1.3**，可使用 Minecraft 26.3 客户端连接旧版本服务器。
+
+- ViaFabricPlus 是纯客户端模组，服务器不需要安装；
+- 它不会让旧版本客户端连接当前 26.3 服务器；
+- 连接不同版本的服务器时，资源包仍以当前客户端版本为准。
 
 ### 性能优化
 
@@ -121,7 +129,7 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 ## 🔹 首次启动检查
 
 - 启动器日志中没有 Java 版本错误；
-- Mod Menu 中能看到 Axiom、WorldEditCUI、Sodium、Iris 和 Xaero；
+- Mod Menu 中能看到 Axiom、WorldEditCUI、ViaFabricPlus、Sodium、Iris 和 Xaero；
 - 语言为简体中文；
 - 多人游戏列表中已预置 JMU 服务器，或手动添加 `laoke.vincentzyu233.cn:61027`。
 
