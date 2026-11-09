@@ -56,11 +56,14 @@ Axiom 中的位置和旋转只是客户端参考。WorldEdit 不会自动读取 
 //schem list
 ```
 
-加载目标文件时不写 `.schem` 扩展名：
+加载目标文件时必须带上完整的 `.schem` 扩展名：
 
 ```text
-//schem load jmusouthgate
+//schem load jmusouthgate.schem
 ```
+
+> [!TIP] 避坑提示
+> 在当前服务端 WorldEdit 版本中，加载投影时必须携带 `.schem` 后缀（如 `//schem load jmusouthgate.schem`，单斜杠 `/schem load jmusouthgate.schem` 亦可）；若省略后缀会报错 `Invalid value for <schematic>, acceptable values are schematic filename`。
 
 `//schem load` 只把文件加载到当前 WorldEdit 剪贴板，不会修改世界。
 
@@ -135,7 +138,7 @@ WorldEdit 的 `-o` 表示“粘贴回原坐标”，不是普通的“在原位�
 适合先用南门投影完整走一遍流程：
 
 ```text
-//schem load jmusouthgate
+//schem load jmusouthgate.schem
 //paste -n
 //paste -a
 ```
@@ -157,7 +160,7 @@ WorldEdit 的 `-o` 表示“粘贴回原坐标”，不是普通的“在原位�
 | 问题 | 处理 |
 | --- | --- |
 | `//schem list` 看不到文件 | 联系管理员确认文件已上传，并检查大小写和文件名 |
-| `//schem load` 失败 | 确认文件是 Sponge Schematic v3，命令中不要写 `.schem` |
+| `//schem load` 失败 | 确认文件是 Sponge Schematic v3，且命令中必须带上 `.schem` 扩展名（如 `//schem load jmusouthgate.schem`） |
 | Axiom 能预览，但 WorldEdit 没反应 | Axiom 预览不会同步给 WorldEdit，需要单独加载服务端文件 |
 | `//paste -n` 的线框位置不对 | 调整站位和朝向，或先 `//rotate` / `//flip` |
 | 正式粘贴后部分区域缺失 | 先 `//undo`，加载目标区块后重新试放和粘贴 |
