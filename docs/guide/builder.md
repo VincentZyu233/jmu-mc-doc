@@ -96,6 +96,10 @@ Axiom 的权限按 `axiom.*` 分配给 `builder`。如果界面能打开但所�
 如果已有 `.schem` 投影，建议先完成 Axiom 预览，再用 WorldEdit 的无方块试放和正式粘贴流程。详见[投影预览与 WorldEdit 放置](/guide/schematic-workflow)。
 :::
 
+::: tip 曲线道路与弯道基建
+如果需要铺设大弧度校园柏油马路、带标线的行车道或跨海大桥，服务端已部署专用的放样工具。详见[曲线道路放样指南 (CurveBuilding)](/guide/curvebuilding)。
+:::
+
 ## 🔹 校园像素地图
 
 服务器主世界已铺设一幅 `10240 × 10830` 的卫星图像素地图，像素材质位于 `Y=5`。

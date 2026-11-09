@@ -42,7 +42,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '建筑权限与协作规范', link: '/guide/builder' },
-          { text: '投影预览与 WorldEdit 放置', link: '/guide/schematic-workflow' }
+          { text: '投影预览与 WorldEdit 放置', link: '/guide/schematic-workflow' },
+          { text: '曲线道路放样 (CurveBuilding)', link: '/guide/curvebuilding' }
         ]
       },
       {
