@@ -1,0 +1,34 @@
+# GitHub Linguist 语言统计规则配置
+
+# 1. 解除 docs/ 目录及 VitePress 配置的文档/第三方默认排除
+docs/** linguist-documentation=false
+docs/** linguist-vendored=false
+
+# 2. 开启 Markdown 语言统计 (强制解除 prose 与 documentation 属性)
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+*.md linguist-language=Markdown
+
+# 3. 开启 TypeScript 统计
+*.ts linguist-detectable=true
+*.ts linguist-documentation=false
+*.ts linguist-language=TypeScript
+*.mts linguist-detectable=true
+*.mts linguist-documentation=false
+*.mts linguist-language=TypeScript
+
+# 4. 开启 CSS 样式统计
+*.css linguist-detectable=true
+*.css linguist-documentation=false
+*.css linguist-language=CSS
+
+# 5. 预置 Vue 与 HTML 语言统计支持
+*.vue linguist-detectable=true
+*.vue linguist-documentation=false
+*.vue linguist-language=Vue
+*.html linguist-detectable=true
+*.html linguist-documentation=false
+*.html linguist-language=HTML
+
+# 6. 排除锁定文件与构建依赖，避免稀释代码统计
+package-lock.json linguist-generated=true
