@@ -26,6 +26,7 @@ export default defineConfig({
       { text: '开始游玩', link: '/guide/quick-start' },
       { text: '客户端安装', link: '/guide/client-install' },
       { text: '建筑与权限', link: '/guide/builder' },
+      { text: '复原进度', link: '/progress/2026-11-12' },
       { text: '常见问题', link: '/guide/faq' }
     ],
     sidebar: [
@@ -44,7 +45,14 @@ export default defineConfig({
           { text: '建筑权限与协作规范', link: '/guide/builder' },
           { text: '投影预览与 WorldEdit 放置', link: '/guide/schematic-workflow' },
           { text: '曲线道路放样 (CurveBuilding)', link: '/guide/curvebuilding' },
-          { text: '体素画圆指南 (徒手/WE/Axiom)', link: '/guide/circle-guide' }
+          { text: '体素画圆指南 (徒手/WE/Axiom)', link: '/guide/circle-guide' },
+          {
+            text: '复原进度实景',
+            collapsed: false,
+            items: [
+              { text: '2026-11-12 (陆大楼与南门)', link: '/progress/2026-11-12' }
+            ]
+          }
         ]
       },
       {

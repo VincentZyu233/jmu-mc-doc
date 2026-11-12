@@ -6,6 +6,25 @@
 
 集美大学 JMU 高校复原工程 Minecraft 服务器的公开文档站点，基于 VitePress 构建并部署到 GitHub Pages。
 
+## 📸 阶段性复原成果 (2026-11-12)
+
+### 陆大楼东立面
+![陆大楼东面](./docs/public/gallery/20261112/20261112-陆大楼东面.png)
+
+### 陆大楼南立面
+![陆大楼南面](./docs/public/gallery/20261112/20261112-陆大楼南面.png)
+
+### 陆大楼中庭排球场
+![陆大楼里面中间排球场](./docs/public/gallery/20261112/20261112-陆大楼里面中间排球场.png)
+
+### 南门正立面
+![南门南面](./docs/public/gallery/20261112/20261112-南门南面.png)
+
+### 南门环岛与西北视角
+![南门西北面](./docs/public/gallery/20261112/20261112-南门西北面.png)
+
+> 👉 更多建造细节与高清文档，请访问：[在线文档 · 复原进度](https://vincentzyu233.github.io/jmu-mc-doc/progress/2026-11-12)
+
 ## 本地开发
 
 ```bash
