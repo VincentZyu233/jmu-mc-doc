@@ -71,7 +71,7 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 | <img src="https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp" class="mod-icon" alt="ImmediatelyFast"> **ImmediatelyFast** | 立即渲染批处理优化，加速 HUD、聊天文字、容器与屏幕界面的绘制 |
 | <img src="https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp" class="mod-icon" alt="EntityCulling (实体剔除)"> **EntityCulling (实体剔除)** | 视锥剔除与遮挡剔除，自动跳过被墙体完全挡住的实体，减轻 GPU 负荷 |
 | <img src="https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp" class="mod-icon" alt="Dynamic FPS"> **Dynamic FPS** | 智能后台降频，在游戏最小化或窗口失去焦点时主动降低负载与发热 |
-| **BadOptimizations** | 绕过原版多处微小冗余逻辑与实体计算陷阱，进一步平滑帧生成时间 |
+| <img src="/branding/badoptimizations.png" class="mod-icon" alt="BadOptimizations"> **BadOptimizations** | 绕过原版多处微小冗余逻辑与实体计算陷阱，进一步平滑帧生成时间 |
 | <img src="https://cdn.modrinth.com/data/M08ruV16/icon.png" class="mod-icon" alt="Bobby"> **Bobby** | 假区块距离缓存，突破服务器发送视距限制，保持加载并显示远景建筑 |
 | <img src="https://cdn.modrinth.com/data/GNxdLCoP/icon.png" class="mod-icon" alt="Cull Leaves"> **Cull Leaves** | 树叶网格遮挡剔除，显著提升校园大面积绿化树木场景下的渲染流畅度 |
 | <img src="https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp" class="mod-icon" alt="ModernFix"> **ModernFix** | 现代化综合性能补丁，深度优化游戏冷启动速度与资源加载链 |
@@ -101,8 +101,8 @@ MRPack 已经内置模组文件，因此导入时不需要逐个下载模组。R
 | **资源包** | <img src="https://cdn.modrinth.com/data/50dA9Sha/3132c10e9e3c73fde9799720fd3da5561071708c_96.webp" class="mod-icon" alt="Fresh Animations"> **Fresh Animations** | 为所有原版生物增加鲜活生动的骨骼动作、表情动画与眨眼细节 |
 | **资源包** | <img src="https://cdn.modrinth.com/data/uvpymuxq/fe1a61998ae57dc6ad1a4bb028334c3c3925d22f_96.webp" class="mod-icon" alt="Better Leaves"> **Better Leaves** | 告别原版方块树叶，呈现蓬松立体、自然丰满的圆润枝叶模型 |
 | **资源包** | <img src="https://cdn.modrinth.com/data/yfDziwn1/907581019df45903df237952ce8d10ac37134cb5_96.webp" class="mod-icon" alt="Sodium Translations"> **Sodium Translations** | 钠及其所有扩展组件的官方简体中文汉化语言包 |
-| **资源包** | **XKRD 红显** | 高对比度红石线路与朝向清晰指示，方便红石机械与电路施工 |
-| **资源包** | **护眼大补丸** | 降低夜间高对比度发光与刺眼界面色彩的柔和配色包 |
+| **资源包** | <img src="https://cdn.modrinth.com/data/4ueVo9s5/91093ad654cb82a897762804756c28e4c6c0fda2.png" class="mod-icon" alt="XKRD 红显"> **XKRD 红显** | 高对比度红石线路与朝向清晰指示，方便红石机械与电路施工 |
+| **资源包** | <img src="https://cdn.modrinth.com/data/QuKAbQJW/83385e5093927dba780a5fded3babfb029d031e4_96.webp" class="mod-icon" alt="护眼大补丸"> **护眼大补丸** | 降低夜间高对比度发光与刺眼界面色彩的柔和配色包 |
 | **光影包** | <img src="https://cdn.modrinth.com/data/HVnmMxH1/79cb7c8123bbc54945305b2ebad6b8881efdf5f8_96.webp" class="mod-icon" alt="Complementary Reimagined"> **Complementary Reimagined** | 风格化与真实光影结合的标杆光影，兼顾极致质感与优异性能 |
 | **光影包** | <img src="https://cdn.modrinth.com/data/Q1vvjJYV/2a611a3cb434fb52fb81fa5dace13c5d8b67e55d_96.webp" class="mod-icon" alt="BSL Shaders"> **BSL Shaders** | 经典暖色调柔光光影，色彩饱满，水面与体积光表现出众 |
 
