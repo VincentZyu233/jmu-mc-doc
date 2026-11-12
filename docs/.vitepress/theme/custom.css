@@ -180,3 +180,14 @@ samp,
     animation-iteration-count: 1 !important;
   }
 }
+
+/* 模组与材质包列表小图标 */
+.mod-icon {
+  display: inline-block;
+  vertical-align: -3px;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  border-radius: 3px;
+  object-fit: contain;
+}
